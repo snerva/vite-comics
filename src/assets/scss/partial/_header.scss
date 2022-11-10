@@ -2,8 +2,26 @@
 
 header {
     background-color: white;
-}
 
-header .container {
-    height: 120px;
+    .logo {
+        padding: 1rem;
+    }
+
+    .logo img {
+        height: 80px;
+    }
+
+    a {
+        text-decoration: none;
+        padding: 3rem 1rem;
+        color: $secondary_color;
+        text-transform: uppercase;
+
+
+        &.active {
+            border-bottom: 5px solid $prymary_color;
+            color: $prymary_color;
+        }
+    }
+
 }
