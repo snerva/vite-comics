@@ -1,5 +1,6 @@
 @use './partial/header';
 @use './partial/main';
+@use './partial/footer';
 @use './node_modules/bootstrap/scss/bootstrap-grid.scss';
 
 * {
@@ -24,14 +25,4 @@ body {
 
 img {
   max-width: 100%;
-}
-
-.footer_top {
-  background-image: url(../img/footer-bg.jpg);
-  height: 368px;
-}
-
-.footer_bottom {
-  background-color: #464646;
-  height: 110px;
 }

@@ -1,0 +1,44 @@
+@use 'variables' as *;
+
+footer {
+    .footer_top {
+        background-image: url(../img/footer-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .footer_menu {
+            background-image: url(../img/dc-logo-bg.png);
+            background-repeat: no-repeat;
+            background-position: right;
+
+            .row {
+                padding: 1rem 0 1.75rem 0;
+            }
+
+            li {
+                list-style: none;
+            }
+
+            h2 {
+                margin: 1rem 0;
+                text-transform: uppercase;
+                color: $light;
+            }
+
+            a {
+                font-weight: 400;
+                text-decoration: none;
+                color: $light_footer;
+                line-height: 1rem;
+            }
+        }
+
+    }
+
+
+
+    .footer_bottom {
+        background-color: #464646;
+        height: 110px;
+    }
+}
