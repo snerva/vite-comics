@@ -1,4 +1,5 @@
 @use './partial/header';
+@use './partial/main';
 @use './node_modules/bootstrap/scss/bootstrap-grid.scss';
 
 * {
@@ -23,16 +24,6 @@ body {
 
 img {
   max-width: 100%;
-}
-
-.main_contents {
-  background-color: #1c1c1c;
-  height: 130px;
-}
-
-.menu_panel {
-  background-color: #0282f9;
-  height: 155px;
 }
 
 .footer_top {

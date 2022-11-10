@@ -1,25 +1,19 @@
 <script>
 import SiteHeader from './components/SiteHeader.vue';
+import SiteMain from './components/SiteMain.vue';
 export default {
   name: 'App',
   components: {
     SiteHeader,
+    SiteMain,
   }
 }
 </script>
 
 <template>
   <SiteHeader></SiteHeader>
-  <main id="site_main">
+  <SiteMain></SiteMain>
 
-    <div class="main_contents">
-      <div class="container"></div>
-    </div>
-    <div class="menu_panel">
-      <div class="container"></div>
-    </div>
-
-  </main>
   <footer id="site_footer">
     <div class="footer_top">
       <div class="container">
