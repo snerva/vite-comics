@@ -11,7 +11,7 @@ export default {
                 <div class="footer_menu d-flex align-items-center">
                     <div class="row">
                         <div class="col">
-                            <h2>dc comics</h2>
+                            <h3>dc comics</h3>
                             <ul>
                                 <li>
                                     <a href="">Characters</a>
@@ -35,7 +35,7 @@ export default {
                                     <a href="">News</a>
                                 </li>
                             </ul>
-                            <h2>shop</h2>
+                            <h3>shop</h3>
                             <ul>
                                 <li>
                                     <a href="">Shop DC</a>
@@ -46,7 +46,7 @@ export default {
                             </ul>
                         </div>
                         <div class="col">
-                            <h2>dc</h2>
+                            <h3>dc</h3>
                             <ul>
                                 <li>
                                     <a href="">Terms Of Use</a>
@@ -84,7 +84,7 @@ export default {
                             </ul>
                         </div>
                         <div class="col">
-                            <h2>sites</h2>
+                            <h3>sites</h3>
                             <ul>
                                 <li>
                                     <a href="">DC</a>
@@ -109,9 +109,18 @@ export default {
         </div>
 
         <div class="footer_bottom">
-            <div class="container">
-                <div class="sign_up"></div>
-                <div class="follow_us"></div>
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="sign_up">
+                    <button class="blue_border">sign-up now!</button>
+                </div>
+                <div class="follow_us d-flex align-items-center">
+                    <h3>follow us</h3>
+                    <img src="../assets/img/footer-facebook.png" alt="">
+                    <img src="../assets/img/footer-twitter.png" alt="">
+                    <img src="../assets/img/footer-youtube.png" alt="">
+                    <img src="../assets/img/footer-pinterest.png" alt="">
+                    <img src="../assets/img/footer-periscope.png" alt="">
+                </div>
             </div>
         </div>
     </footer>

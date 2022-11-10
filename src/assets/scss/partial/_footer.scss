@@ -19,7 +19,7 @@ footer {
                 list-style: none;
             }
 
-            h2 {
+            h3 {
                 margin: 1rem 0;
                 text-transform: uppercase;
                 color: $light;
@@ -39,6 +39,25 @@ footer {
 
     .footer_bottom {
         background-color: #464646;
-        height: 110px;
+        padding: 1rem;
+
+        button {
+            padding: 0.5rem;
+            font-size: 1rem;
+            color: $light;
+            text-transform: uppercase;
+            background: none;
+            border: 2px solid $prymary_color;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            color: $prymary_color;
+            margin: 0.5rem;
+        }
+
+        img {
+            margin: 0.5rem;
+        }
     }
 }
