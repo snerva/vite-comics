@@ -33,4 +33,10 @@ header .container {
 
 .footer_top {
   background-image: url(./img/footer-bg.jpg);
+  height: 368px;
+}
+
+.footer_bottom {
+  background-color: #464646;
+  height: 110px;
 }
