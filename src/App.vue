@@ -1,11 +1,15 @@
-<script setup>
-
+<script>
+import SiteHeader from './components/SiteHeader.vue';
+export default {
+  name: 'App',
+  components: {
+    SiteHeader,
+  }
+}
 </script>
 
 <template>
-  <header id="site_header">
-    <div class="container"></div>
-  </header>
+  <SiteHeader></SiteHeader>
   <main id="site_main">
 
     <div class="main_contents">
@@ -39,6 +43,6 @@
   </footer>
 </template>
 
-<style lang="">
+<style lang="scss">
 
 </style>
