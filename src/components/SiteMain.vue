@@ -1,9 +1,11 @@
 <script>
 import SiteMainBluePanel from './SiteMainBluePanel.vue';
+import Comics from './Comics.vue';
 export default {
     name: 'SiteMain',
     components: {
-        SiteMainBluePanel
+        SiteMainBluePanel,
+        Comics
     }
 
 }
@@ -20,36 +22,7 @@ export default {
                 </div>
                 <div class="comics">
                     <div class="row row-cols-6 g-4">
-                        <div class="col">
-                            <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX"
-                                alt="">
-                            <p>action comics</p>
-                        </div>
-                        <div class="col">
-                            <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX"
-                                alt="">
-                            <p>action comics</p>
-                        </div>
-                        <div class="col">
-                            <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX"
-                                alt="">
-                            <p>action comics</p>
-                        </div>
-                        <div class="col">
-                            <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX"
-                                alt="">
-                            <p>action comics</p>
-                        </div>
-                        <div class="col">
-                            <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX"
-                                alt="">
-                            <p>action comics</p>
-                        </div>
-                        <div class="col">
-                            <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX"
-                                alt="">
-                            <p>action comics</p>
-                        </div>
+                        <Comics></Comics>
                     </div>
                 </div>
             </div>
