@@ -13,12 +13,12 @@ header {
 
     a {
         text-decoration: none;
-        padding: 3rem 1rem;
+        padding: 2.75rem 1rem;
         color: $secondary_color;
         text-transform: uppercase;
 
 
-        &.active {
+        &:hover {
             border-bottom: 5px solid $prymary_color;
             color: $prymary_color;
         }
