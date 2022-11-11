@@ -24,6 +24,9 @@ export default {
                     <div class="row row-cols-6 g-4">
                         <Comics></Comics>
                     </div>
+                    <div class="load_btn">
+                        <a href="#" class="btn py-2 px-5">load more</a>
+                    </div>
                 </div>
             </div>
         </div>
