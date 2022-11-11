@@ -1,6 +1,6 @@
 <script>
 import comics from '../data/comics';
-import Comic from './Comic.vue';
+import Comic from './ComicItem.vue';
 export default {
     name: 'Comics',
     components: {
